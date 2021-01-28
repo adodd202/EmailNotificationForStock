@@ -10,7 +10,7 @@ from selenium.webdriver.chrome.options import Options
 warnings.filterwarnings("ignore", category=DeprecationWarning) 
 
 PASSWORD = input("Input password: ")
-TARGET_SALE_PRICE = "1500"
+TARGET_SALE_PRICE = "5000"
 
 
 def get_price():
